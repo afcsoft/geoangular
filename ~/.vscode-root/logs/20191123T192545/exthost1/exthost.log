@@ -28,3 +28,5 @@
 [2019-11-23 19:26:17.812] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/20/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension
 [2019-11-23 19:39:02.028] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing {"startup":false,"extensionId":{"value":"vscode.extension-editing","_lower":"vscode.extension-editing"},"activationEvent":"onLanguage:json"}
 [2019-11-23 19:39:02.028] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/20/usr/share/code/resources/app/extensions/extension-editing/dist/extension
+[2019-11-23 19:52:24.403] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-language-features {"startup":false,"extensionId":{"value":"vscode.markdown-language-features","_lower":"vscode.markdown-language-features"},"activationEvent":"onLanguage:markdown"}
+[2019-11-23 19:52:24.403] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/20/usr/share/code/resources/app/extensions/markdown-language-features/dist/extension
