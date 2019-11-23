@@ -90,13 +90,11 @@
                     },
                     {
                         "id": "workbench.action.files.save",
-                        "label": "&&Save",
-                        "enabled": false
+                        "label": "&&Save"
                     },
                     {
                         "id": "workbench.action.files.saveAs",
-                        "label": "Save &&As...",
-                        "enabled": false
+                        "label": "Save &&As..."
                     },
                     {
                         "id": "workbench.action.files.saveAll",
@@ -555,8 +553,7 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back",
-                        "enabled": false
+                        "label": "&&Back"
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -565,8 +562,7 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location",
-                        "enabled": false
+                        "label": "&&Last Edit Location"
                     },
                     {
                         "id": "vscode.menubar.separator"

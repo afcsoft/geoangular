@@ -26,3 +26,5 @@
 [2019-11-23 19:26:17.784] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/20/usr/share/code/resources/app/extensions/json-language-features/client/dist/jsonMain
 [2019-11-23 19:26:17.812] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"extensionId":{"value":"vscode.typescript-language-features","_lower":"vscode.typescript-language-features"},"activationEvent":"onLanguage:jsonc"}
 [2019-11-23 19:26:17.812] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/20/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension
+[2019-11-23 19:39:02.028] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing {"startup":false,"extensionId":{"value":"vscode.extension-editing","_lower":"vscode.extension-editing"},"activationEvent":"onLanguage:json"}
+[2019-11-23 19:39:02.028] [exthost] [info] ExtensionService#loadCommonJSModule file:///snap/code/20/usr/share/code/resources/app/extensions/extension-editing/dist/extension
