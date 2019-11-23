@@ -1,4 +1,3 @@
-use "strict";
 const express = require("express");
 const compression = require("compression");
 const pg=require("pg").Pool;
