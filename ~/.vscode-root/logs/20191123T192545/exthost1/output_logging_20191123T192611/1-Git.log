@@ -357,3 +357,213 @@ Everything up-to-date
 > git remote --verbose
 > git config --get commit.template
 > git show :server.js
+> git show :server.js
+> git show :server.js
+> git show :server.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :README.md
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :server.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :src/app/app.component.ts
+> git show :src/app/app.component.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :server.js
+> git show :src/app/app.component.html
+> git check-ignore -v -z --stdin
+> git show :src/app/map/map.component.ts
+> git ls-files --stage -- src/app/map/
+> git check-ignore -v -z --stdin
+> git show :src/app/map/map.component.css
+> git ls-files --stage -- src/app/map/
+> git check-ignore -v -z --stdin
+> git show :src/app/map/map.component.html
+> git ls-files --stage -- src/app/map/
+> git check-ignore -v -z --stdin
+> git show :src/app/map/map.component.ts
+> git ls-files --stage -- src/app/map/
+> git show :src/app/app.component.html
+> git show :src/app/app.component.css
+> git show :src/app/app.component.html
+> git show :src/app/app.component.spec.ts
+> git show :src/app/app.component.ts
+> git show :src/app/map/map.component.ts
+> git ls-files --stage -- src/app/map/
+> git show :src/app/app.component.html
+> git show :src/app/app.component.ts
+> git show :src/app/map/map.component.ts
+> git ls-files --stage -- src/app/map/
+> git show :src/app/map/map.component.html
+> git ls-files --stage -- src/app/map/
+> git show :src/app/map/map.component.css
+> git ls-files --stage -- src/app/map/
+> git show :src/app/map/map.component.html
+> git ls-files --stage -- src/app/map/
+> git show :src/app/map/map.component.ts
+> git ls-files --stage -- src/app/map/
+> git show :src/app/app.component.ts
+> git show :src/app/app.component.html
+> git show :src/app/app.component.ts
+> git show :src/app/app.module.ts
+> git show :src/app/map/map.component.ts
+> git ls-files --stage -- src/app/map/
+> git show :src/app/map/map.component.css
+> git ls-files --stage -- src/app/map/
+> git show :src/app/map/map.component.ts
+> git ls-files --stage -- src/app/map/
+> git show :src/app/app.module.ts
+> git show :src/app/map/map.component.css
+> git ls-files --stage -- src/app/map/
+> git show :src/app/map/map.component.ts
+> git ls-files --stage -- src/app/map/
+> git show :src/app/app.module.ts
+> git show :src/app/app.component.html
+> git show :src/app/map/map.component.html
+> git ls-files --stage -- src/app/map/
+> git show :src/app/app.component.html
+> git show :src/app/map/map.component.html
+> git ls-files --stage -- src/app/map/
+> git show :src/app/map/map.component.css
+> git ls-files --stage -- src/app/map/
+> git show :src/app/map/map.component.ts
+> git ls-files --stage -- src/app/map/
+> git show :src/app/app.component.html
+> git show :src/app/map/map.component.ts
+> git ls-files --stage -- src/app/map/
+> git show :src/app/app.component.ts
+> git show :src/app/app.module.ts
+> git show :src/app/app.component.ts
+> git show :src/app/map/map.component.css
+> git ls-files --stage -- src/app/map/
+> git show :src/app/app.component.ts
+> git show :src/app/map/map.component.ts
+> git ls-files --stage -- src/app/map/
+> git show :src/app/app.module.ts
+> git show :src/app/app.component.ts
+> git show :src/app/map/map.component.css
+> git ls-files --stage -- src/app/map/
+> git show :src/app/map/map.component.html
+> git ls-files --stage -- src/app/map/
+> git show :src/app/map/map.component.ts
+> git ls-files --stage -- src/app/map/
+> git show :src/app/app.module.ts
+> git show :src/app/app.component.ts
+> git show :src/app/map/map.component.ts
+> git ls-files --stage -- src/app/map/
+> git show :src/app/app.component.ts
+> git show :src/app/map/map.component.ts
+> git ls-files --stage -- src/app/map/
+> git show :src/app/app.component.ts
+> git show :src/app/map/map.component.ts
+> git ls-files --stage -- src/app/map/
+> git show :src/app/map/map.component.html
+> git ls-files --stage -- src/app/map/
+> git show :src/app/map/map.component.ts
+> git ls-files --stage -- src/app/map/
+> git show :server.js
+> git show :src/app/map/map.component.ts
+> git ls-files --stage -- src/app/map/
+> git show :src/app/app.component.html
+> git show :server.js
+> git show :src/app/app.component.html
+> git show :src/app/app.module.ts
+> git show :src/app/map/map.component.ts
+> git ls-files --stage -- src/app/map/
+> git show :src/app/app.component.ts
+> git show :src/app/app.component.html
+> git show :src/app/app.component.ts
+> git show :src/index.html

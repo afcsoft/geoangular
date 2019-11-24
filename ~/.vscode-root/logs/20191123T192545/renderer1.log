@@ -1,0 +1,32 @@
+[2019-11-24 19:09:28.020] [renderer1] [error] TreeError [MarkersPanel] Tree element not found: [object Object]: Error: TreeError [MarkersPanel] Tree element not found: [object Object]
+    at t.ObjectTreeModel.getElementLocation (file:///snap/code/20/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:133:120)
+    at t.ObjectTreeModel.isCollapsed (file:///snap/code/20/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:132:250)
+    at W.isCollapsed (file:///snap/code/20/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1043:391)
+    at z.revealMarkersForCurrentActiveEditor (file:///snap/code/20/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5926:628)
+    at z.autoReveal (file:///snap/code/20/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5926:485)
+    at z.onActiveEditorChanged (file:///snap/code/20/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5923:776)
+    at file:///snap/code/20/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5922:754
+    at file:///snap/code/20/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:111:709
+    at c.fire (file:///snap/code/20/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:115:286)
+    at e.doEmitActiveEditorChangeEvent (file:///snap/code/20/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:4909:172)
+    at e.handleActiveEditorChange (file:///snap/code/20/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:4908:992)
+    at file:///snap/code/20/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:4909:282
+    at c.fire (file:///snap/code/20/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:115:286)
+    at file:///snap/code/20/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5569:875
+    at async e.openEditor (file:///snap/code/20/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5568:750)
+[2019-11-24 19:27:41.381] [renderer1] [error] TreeError [MarkersPanel] Tree element not found: [object Object]: Error: TreeError [MarkersPanel] Tree element not found: [object Object]
+    at t.ObjectTreeModel.getElementLocation (file:///snap/code/20/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:133:120)
+    at t.ObjectTreeModel.isCollapsed (file:///snap/code/20/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:132:250)
+    at W.isCollapsed (file:///snap/code/20/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1043:391)
+    at z.revealMarkersForCurrentActiveEditor (file:///snap/code/20/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5926:628)
+    at z.autoReveal (file:///snap/code/20/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5926:485)
+    at z.onActiveEditorChanged (file:///snap/code/20/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5923:776)
+    at file:///snap/code/20/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5922:754
+    at file:///snap/code/20/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:111:709
+    at c.fire (file:///snap/code/20/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:115:286)
+    at e.doEmitActiveEditorChangeEvent (file:///snap/code/20/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:4909:172)
+    at e.handleActiveEditorChange (file:///snap/code/20/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:4908:992)
+    at file:///snap/code/20/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:4909:282
+    at c.fire (file:///snap/code/20/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:115:286)
+    at file:///snap/code/20/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5569:875
+    at async e.openEditor (file:///snap/code/20/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5568:750)
