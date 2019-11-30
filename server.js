@@ -27,27 +27,16 @@ app.post('*.*', express.static(_app_folder, {maxAge: '1y'}));
 app.get("/api/test",function(req,res)
 {
         pool.query("SELECT row_to_json(fc) FROM ( SELECT 'FeatureCollection' As type, array_to_json(array_agg(f)) As features FROM (SELECT 'Feature' As type, ST_AsGeoJSON(lg.region_geom)::json As geometry, row_to_json((region_id,responsible)) As properties FROM regions As lg) As f) As fc", (err1, res1) => 
-        {
-            console.log("lol")
-        if(err1) {
-                return console.log(err1);
-            }
-            res.send(res1.rows[0].row_to_json)
-        console.log(res1.rows[0].row_to_json)
-        f.writeFile("./dist/a.geojson",JSON.stringify(res1.rows[0].row_to_json), function(err) {
-
-            if(err) {
-                return console.log(err);
-            }
-        
-            console.log("The file was saved!");
+        {        
+            if(err1) 
+                {
+                    return console.log(err1);
+                }
+            res.send(res1.rows[0].row_to_json)        
         }); 
         
-    
-        
-        })
-}
-);
+});
+
 // ---- SERVE APPLICATION PATHS ---- //
 app.all('*', function (req, res) {
     res.status(200).sendFile(`/`, {root: _app_folder});

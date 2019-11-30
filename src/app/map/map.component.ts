@@ -7,17 +7,24 @@ import { Subject } from 'rxjs/Subject';
 
 @Component({
   selector: 'map',
-  template:  '<div id="map"></div>',
+  templateUrl:  './map.component.html',
   styleUrls: ['map.component.css']
 })
 export class MapComponent implements OnInit{
 
-  private map: ol.Map;
-
+  
+  
 
   ngOnInit() {
+    var selectClick;  
+    var map;
+
+   
+     
     
-    this.map = new ol.Map({
+
+
+    map = new ol.Map({
       layers: [
         new ol.layer.Tile({ source: new ol.source.OSM()}),
       ],
@@ -28,13 +35,59 @@ export class MapComponent implements OnInit{
       })
     });
 
+    
+    var
+    container = document.getElementById('popup'),
+    content_element = document.getElementById('popup-content'),
+    closer = document.getElementById('popup-closer');
+
+    closer.onclick = function() {
+        overlay.setPosition(undefined);
+        closer.blur();
+        return false;
+    };
+
+
+
+
     var vector = new ol.layer.Vector({
         source: new ol.source.Vector({
           url: '/api/test',
           format: new ol.format.GeoJSON()
         })
       });
-      this.map.addLayer(vector);
+
+      map.addLayer(vector);
+
+
+      var overlay = new ol.Overlay({
+        element: container,
+        autoPan: true,
+        offset: [0, -10]
+      });
+
+    map.addOverlay(overlay);
+
+      map.on('click', function(evt){
+        var feature = map.forEachFeatureAtPixel(evt.pixel,
+          function(feature, layer) {
+            return feature;
+          });
+        if (feature) {
+            var geometry = feature.getGeometry();
+            var coord = geometry.getCoordinates();
+            
+            var content = '<h3>' + feature.get('f1')+'  '+feature.get('f2') + '</h3>';
+
+            console.log(coord[0]);
+            content_element.innerHTML = content;          
+            overlay.setPosition(coord[0][0]);
+            
+            console.log(content)
+            
+            console.info(feature.getProperties());
+            }
+        });
 
   }
 

@@ -32,7 +32,20 @@ webpackEmptyAsyncContext.id = "./$$_lazy_route_resource lazy recursive";
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<h1>{{name}}</h1>\n<map></map>\n<br>");
+/* harmony default export */ __webpack_exports__["default"] = ("<h1>{{name}}</h1>\r\n<map></map>\r\n<br>");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/map/map.component.html":
+/*!******************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/map/map.component.html ***!
+  \******************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<div id=\"map\" ></div>\r\n\r\n<div id=\"popup\" class=\"ol-popup\">\r\n    <a href=\"#\" id=\"popup-closer\" class=\"ol-popup-closer\"></a>\r\n    <div id=\"popup-content\"></div>\r\n</div>");
 
 /***/ }),
 
@@ -325,6 +338,7 @@ __webpack_require__.r(__webpack_exports__);
 let AppComponent = class AppComponent {
     constructor() {
         this.title = 'geoangular';
+        this.name = 'Geo Angular Project';
     }
 };
 AppComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
@@ -390,7 +404,7 @@ AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("@import url(https://openlayers.org/en/v4.6.5/css/ol.css);\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvbWFwL21hcC5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLHdEQUF3RCIsImZpbGUiOiJzcmMvYXBwL21hcC9tYXAuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIkBpbXBvcnQgdXJsKGh0dHBzOi8vb3BlbmxheWVycy5vcmcvZW4vdjQuNi41L2Nzcy9vbC5jc3MpOyJdfQ== */");
+/* harmony default export */ __webpack_exports__["default"] = ("html, body, #map{\r\n    width:100%; height:100%;\r\n    overflow: hidden;\r\n}\r\n#map{\r\n    position:absolute;\r\n    z-index:1;\r\n    top:0; bottom:0;\r\n}\r\n.ol-popup {\r\n    position: absolute;\r\n    min-width: 180px;\r\n    background-color: white;\r\n    -webkit-filter: drop-shadow(0 1px 4px rgba(0,0,0,0.2));\r\n    filter: drop-shadow(0 1px 4px rgba(0,0,0,0.2));\r\n    padding: 15px;\r\n    border-radius: 10px;\r\n    border: 1px solid #ccc;\r\n    bottom: 12px;\r\n    left: -50px;\r\n}\r\n.ol-popup:after, .ol-popup:before {\r\n    top: 100%;\r\n    border: solid transparent;\r\n    content: \" \";\r\n    height: 0;\r\n    width: 0;\r\n    position: absolute;\r\n    pointer-events: none;\r\n}\r\n.ol-popup:after {\r\n    border-top-color: white;\r\n    border-width: 10px;\r\n    left: 48px;\r\n    margin-left: -10px;\r\n}\r\n.ol-popup:before {\r\n    border-top-color: #cccccc;\r\n    border-width: 11px;\r\n    left: 48px;\r\n    margin-left: -11px;\r\n}\r\n.ol-popup-closer {\r\n    text-decoration: none;\r\n    position: absolute;\r\n    top: 2px;\r\n    right: 8px;\r\n}\r\n.ol-popup-closer:after {\r\n    content: \"✖\";\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvbWFwL21hcC5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksVUFBVSxFQUFFLFdBQVc7SUFDdkIsZ0JBQWdCO0FBQ3BCO0FBQ0E7SUFDSSxpQkFBaUI7SUFDakIsU0FBUztJQUNULEtBQUssRUFBRSxRQUFRO0FBQ25CO0FBRUE7SUFDSSxrQkFBa0I7SUFDbEIsZ0JBQWdCO0lBQ2hCLHVCQUF1QjtJQUN2QixzREFBc0Q7SUFDdEQsOENBQThDO0lBQzlDLGFBQWE7SUFDYixtQkFBbUI7SUFDbkIsc0JBQXNCO0lBQ3RCLFlBQVk7SUFDWixXQUFXO0FBQ2Y7QUFDQTtJQUNJLFNBQVM7SUFDVCx5QkFBeUI7SUFDekIsWUFBWTtJQUNaLFNBQVM7SUFDVCxRQUFRO0lBQ1Isa0JBQWtCO0lBQ2xCLG9CQUFvQjtBQUN4QjtBQUNBO0lBQ0ksdUJBQXVCO0lBQ3ZCLGtCQUFrQjtJQUNsQixVQUFVO0lBQ1Ysa0JBQWtCO0FBQ3RCO0FBQ0E7SUFDSSx5QkFBeUI7SUFDekIsa0JBQWtCO0lBQ2xCLFVBQVU7SUFDVixrQkFBa0I7QUFDdEI7QUFDQTtJQUNJLHFCQUFxQjtJQUNyQixrQkFBa0I7SUFDbEIsUUFBUTtJQUNSLFVBQVU7QUFDZDtBQUNBO0lBQ0ksWUFBWTtBQUNoQiIsImZpbGUiOiJzcmMvYXBwL21hcC9tYXAuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbImh0bWwsIGJvZHksICNtYXB7XHJcbiAgICB3aWR0aDoxMDAlOyBoZWlnaHQ6MTAwJTtcclxuICAgIG92ZXJmbG93OiBoaWRkZW47XHJcbn1cclxuI21hcHtcclxuICAgIHBvc2l0aW9uOmFic29sdXRlO1xyXG4gICAgei1pbmRleDoxO1xyXG4gICAgdG9wOjA7IGJvdHRvbTowO1xyXG59XHJcblxyXG4ub2wtcG9wdXAge1xyXG4gICAgcG9zaXRpb246IGFic29sdXRlO1xyXG4gICAgbWluLXdpZHRoOiAxODBweDtcclxuICAgIGJhY2tncm91bmQtY29sb3I6IHdoaXRlO1xyXG4gICAgLXdlYmtpdC1maWx0ZXI6IGRyb3Atc2hhZG93KDAgMXB4IDRweCByZ2JhKDAsMCwwLDAuMikpO1xyXG4gICAgZmlsdGVyOiBkcm9wLXNoYWRvdygwIDFweCA0cHggcmdiYSgwLDAsMCwwLjIpKTtcclxuICAgIHBhZGRpbmc6IDE1cHg7XHJcbiAgICBib3JkZXItcmFkaXVzOiAxMHB4O1xyXG4gICAgYm9yZGVyOiAxcHggc29saWQgI2NjYztcclxuICAgIGJvdHRvbTogMTJweDtcclxuICAgIGxlZnQ6IC01MHB4O1xyXG59XHJcbi5vbC1wb3B1cDphZnRlciwgLm9sLXBvcHVwOmJlZm9yZSB7XHJcbiAgICB0b3A6IDEwMCU7XHJcbiAgICBib3JkZXI6IHNvbGlkIHRyYW5zcGFyZW50O1xyXG4gICAgY29udGVudDogXCIgXCI7XHJcbiAgICBoZWlnaHQ6IDA7XHJcbiAgICB3aWR0aDogMDtcclxuICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICAgIHBvaW50ZXItZXZlbnRzOiBub25lO1xyXG59XHJcbi5vbC1wb3B1cDphZnRlciB7XHJcbiAgICBib3JkZXItdG9wLWNvbG9yOiB3aGl0ZTtcclxuICAgIGJvcmRlci13aWR0aDogMTBweDtcclxuICAgIGxlZnQ6IDQ4cHg7XHJcbiAgICBtYXJnaW4tbGVmdDogLTEwcHg7XHJcbn1cclxuLm9sLXBvcHVwOmJlZm9yZSB7XHJcbiAgICBib3JkZXItdG9wLWNvbG9yOiAjY2NjY2NjO1xyXG4gICAgYm9yZGVyLXdpZHRoOiAxMXB4O1xyXG4gICAgbGVmdDogNDhweDtcclxuICAgIG1hcmdpbi1sZWZ0OiAtMTFweDtcclxufVxyXG4ub2wtcG9wdXAtY2xvc2VyIHtcclxuICAgIHRleHQtZGVjb3JhdGlvbjogbm9uZTtcclxuICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICAgIHRvcDogMnB4O1xyXG4gICAgcmlnaHQ6IDhweDtcclxufVxyXG4ub2wtcG9wdXAtY2xvc2VyOmFmdGVyIHtcclxuICAgIGNvbnRlbnQ6IFwi4pyWXCI7XHJcbn0iXX0= */");
 
 /***/ }),
 
@@ -413,7 +427,9 @@ __webpack_require__.r(__webpack_exports__);
 
 let MapComponent = class MapComponent {
     ngOnInit() {
-        this.map = new openlayers__WEBPACK_IMPORTED_MODULE_2___default.a.Map({
+        var selectClick;
+        var map;
+        map = new openlayers__WEBPACK_IMPORTED_MODULE_2___default.a.Map({
             layers: [
                 new openlayers__WEBPACK_IMPORTED_MODULE_2___default.a.layer.Tile({ source: new openlayers__WEBPACK_IMPORTED_MODULE_2___default.a.source.OSM() }),
             ],
@@ -423,19 +439,46 @@ let MapComponent = class MapComponent {
                 zoom: 3
             })
         });
+        var container = document.getElementById('popup'), content_element = document.getElementById('popup-content'), closer = document.getElementById('popup-closer');
+        closer.onclick = function () {
+            overlay.setPosition(undefined);
+            closer.blur();
+            return false;
+        };
         var vector = new openlayers__WEBPACK_IMPORTED_MODULE_2___default.a.layer.Vector({
             source: new openlayers__WEBPACK_IMPORTED_MODULE_2___default.a.source.Vector({
                 url: '/api/test',
                 format: new openlayers__WEBPACK_IMPORTED_MODULE_2___default.a.format.GeoJSON()
             })
         });
-        this.map.addLayer(vector);
+        map.addLayer(vector);
+        var overlay = new openlayers__WEBPACK_IMPORTED_MODULE_2___default.a.Overlay({
+            element: container,
+            autoPan: true,
+            offset: [0, -10]
+        });
+        map.addOverlay(overlay);
+        map.on('click', function (evt) {
+            var feature = map.forEachFeatureAtPixel(evt.pixel, function (feature, layer) {
+                return feature;
+            });
+            if (feature) {
+                var geometry = feature.getGeometry();
+                var coord = geometry.getCoordinates();
+                var content = '<h3>' + feature.get('f1') + '  ' + feature.get('f2') + '</h3>';
+                console.log(coord[0]);
+                content_element.innerHTML = content;
+                overlay.setPosition(coord[0][0]);
+                console.log(content);
+                console.info(feature.getProperties());
+            }
+        });
     }
 };
 MapComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'map',
-        template: '<div id="map"></div>',
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./map.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/map/map.component.html")).default,
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./map.component.css */ "./src/app/map/map.component.css")).default]
     })
 ], MapComponent);
@@ -509,7 +552,7 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_2__["platformB
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /home/afcsoft/Masaüstü/Projects/geoangular/src/main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! C:\Users\afcso\OneDrive\Belgeler\geoangular\src\main.ts */"./src/main.ts");
 
 
 /***/ })
